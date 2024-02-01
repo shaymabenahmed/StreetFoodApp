@@ -1,0 +1,51 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.streetfoodapp.HomeActivity">
+    <item
+        android:id="@+id/home"
+        android:orderInCategory="100"
+        android:title="Acceuil"
+        app:showAsAction="never" />
+    <item
+    android:id="@+id/menu"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:title="Menu" >
+        <menu
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <item
+                android:id="@+id/pizzas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:title="Nos Pizzas" />
+            <item
+                android:id="@+id/makloub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:title="Nos Makloub" />
+            <item
+                android:id="@+id/tacos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:title="Nos Tacos" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/profil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Profil" />
+    <item
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Contactez-Nous" />
+    <item
+        android:id="@+id/map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Visitez-Nous" />
+
+</menu>
